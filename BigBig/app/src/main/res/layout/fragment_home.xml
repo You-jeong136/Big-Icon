@@ -129,7 +129,7 @@
                 android:layout_height="0dp"
                 android:layout_weight="1">
                 <androidx.constraintlayout.widget.ConstraintLayout
-                    android:id="@+id/cl_home_gallery"
+                    android:id="@+id/cl_home_message"
                     android:background="@drawable/rectangle_gray_10"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -137,7 +137,7 @@
                     android:layout_weight="1">
 
                     <ImageView
-                        android:id="@+id/iv_home_gallery"
+                        android:id="@+id/iv_home_message"
                         android:layout_width="wrap_content"
                         android:layout_height="0dp"
                         android:minWidth="100dp"
@@ -145,14 +145,14 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintBottom_toTopOf="@id/tv_home_gallery"/>
+                        app:layout_constraintBottom_toTopOf="@id/tv_home_message"/>
                     <TextView
-                        android:id="@+id/tv_home_gallery"
+                        android:id="@+id/tv_home_message"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="사진첩"
+                        android:text="문자"
                         android:textSize="30sp"
-                        app:layout_constraintTop_toBottomOf="@id/iv_home_gallery"
+                        app:layout_constraintTop_toBottomOf="@id/iv_home_message"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintBottom_toBottomOf="parent"/>
